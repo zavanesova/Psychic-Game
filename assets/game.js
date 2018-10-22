@@ -14,7 +14,7 @@ var yourGuesses = document.getElementById("your-guesses");
 
 window.onload = function() {
 document.onkeyup = function(event) {
-    var userGuess = event.key;
+    var userGuess = event.key.toLowerCase();
     var computerChoice = computerLetters[Math.floor(Math.random() * computerLetters.length)];
     if(event.keyCode>= 65 && event.keyCode <= 90) {
         if(userGuess === computerChoice) {

@@ -45,10 +45,34 @@ table {
 /* Reset css end */
 
 body{
-    background-image: url(/assets/stars.jpg)
+    background-image: url(galaxy1.jpg);
 }
-h1{
-    font-size: 40px;
-    font-display: bold;
-    padding-bottom: 20px;
+.jumbotron{
+    background-color: rgb(175, 207, 226);
+    margin-top: 60px;  
+}
+.display-4{
+    text-align: center;
+    font-family: "phosphate";
+    font-size: 70px;
+    padding-bottom: 25px;
+}
+.lead{
+    font-family: "Lao MN";
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+#directions{
+    font-family: "Lao MN";
+    text-align: center;
+    font-size: 25px;
+}
+#wins-text,
+#losses-text,
+#guesses-left,
+#your-guesses{
+    font-family: "Lao MN";
+    text-align: center;
+    font-size: 22px;
 }
