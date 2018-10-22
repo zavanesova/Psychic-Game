@@ -44,6 +44,9 @@ table {
 }
 /* Reset css end */
 
+body{
+    background-image: url(/assets/stars.jpg)
+}
 h1{
     font-size: 40px;
     font-display: bold;
